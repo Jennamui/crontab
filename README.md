@@ -25,3 +25,5 @@ Pull down data at the end of every quarter:
 0 0 1 */3 *
 
 6. status check: systemctl status cron
+
+7. Save the retrieved data to the local machine where cron job is running
