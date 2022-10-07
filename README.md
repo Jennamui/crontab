@@ -12,7 +12,7 @@ Instructions for automating the python file using crontab:
 
 5. Open the crontab file using crontab -e and add in the cron job command with path:
 
-Once a day at 1pm:
+Once a day at 1am:
 
 0 1 * * *
 
