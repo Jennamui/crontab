@@ -14,15 +14,15 @@ Instructions for automating the python file using crontab:
 
 Once a day at 1am:
 
-0 1 * * *
+0 1 * * * /usr/bin/python3 /home/jenna_mui/crontab > log.txt 2>&1 &
 
 Every Sunday night at 10:00pm: 
 
-0 22 * * SUN
+0 22 * * SUN /usr/bin/python3 /home/jenna_mui/crontab > log.txt 2>&1 &
 
 Pull down data at the end of every quarter:  
 
-0 0 1 */3 *
+0 0 1 */3 * /usr/bin/python3 /home/jenna_mui/crontab > log.txt 2>&1 &
 
 6. status check: systemctl status cron
 
